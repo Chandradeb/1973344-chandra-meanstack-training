@@ -1,0 +1,62 @@
+.bodyStyle{
+    background-color: aquamarine;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+.h3Style{
+    text-align: center;
+    color:violet;
+    font-style: italic;
+}
+
+.p1Style{
+    padding: 10px;
+    border: solid burlywood 5px;
+    background-color:aqua;
+}
+
+.div1Style{
+    padding: 20px;
+    border: solid rosybrown 2px;
+    margin: 10px;
+    width: 120px;
+    height: 150px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.div2Style{
+    padding: 20px;
+    border: solid rosybrown 2px;
+    margin: 10px;
+    width: 120px;
+    height: 150px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
+
+.div3Style{
+    padding: 20px;
+    border: solid rosybrown 2px;
+    margin: 10px;
+    width: 120px;
+    height: 150px;
+    float: left;
+    border-radius: 50%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+}
