@@ -1,0 +1,130 @@
+#h2Ind{
+    text-align: center;
+    font-style: italic;
+    color:sienna;
+    font-size: 50px;
+    padding-top: 112px;
+    padding-bottom: 20px;
+}
+
+#bodyInd{
+    font-family: 'Times New Roman', Times, serif;
+    margin: 10px;
+}
+
+#a1Ind{
+    font-size: large;
+    color:rgb(8, 23, 90);
+    text-decoration: none;
+    padding: 20px;
+    border: solid rosybrown 5px;
+    margin:200px;
+}
+
+#a2Ind{
+    font-size: large;
+    color:rgb(8, 23, 90);
+    text-decoration: none;
+    padding: 20px;
+    border: solid rosybrown 5px;
+}
+
+#h2PM{
+    text-align: center;
+    color:rgb(155, 98, 72);
+}
+
+#divPM{
+    padding: 50px;
+    border: solid rosybrown 2px;
+    margin: 5px;
+    border-radius: 10%;
+    text-align: center;
+}
+
+#h3PM{
+    color:rgb(155, 98, 72);
+}
+
+label{
+    color:rgb(167, 54, 120);
+}
+
+input{
+    box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -moz-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+    -webkit-box-shadow: rgba(0,0,0, 0.1) 0px 0px 8px; 
+}
+
+#a1PM{
+    color:rgb(8, 23, 90);
+    text-decoration: none;
+    padding: 5px;
+    border: solid rosybrown 2px;
+    border-radius: 20%;
+    margin:100px;
+}
+
+#a2PM{
+    color:rgb(8, 23, 90);
+    text-decoration: none;
+    padding: 5px;
+    border: solid rosybrown 2px;
+    border-radius: 20%;
+    margin:150px;
+}
+
+#h2FT{
+    text-align: center;
+    color:rgb(155, 98, 72);
+}
+
+#divFT{
+    padding: 10px;
+    border: solid rosybrown 2px;
+    margin: 10px;
+    border-radius: 10%;
+    text-align: center;
+    
+}
+
+#a1FT{
+    color:rgb(8, 23, 90);
+    text-decoration: none;
+    padding: 5px;
+    border: solid rosybrown 2px;
+    margin:100px;
+    border-radius: 20%;
+}
+
+#a2FT{
+    color:rgb(8, 23, 90);
+    text-decoration: none;
+    padding: 5px;
+    border: solid rosybrown 2px;
+    margin:150px;
+    border-radius: 20%;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 30%;
+}
+
+table{
+    width: 100%;
+}
+
+td{
+    text-align:left;
+    font-size:17px;
+}
+
+th{
+    height: 70px;
+}
+
+#p1FT{
+    font-size:20px;
+}
