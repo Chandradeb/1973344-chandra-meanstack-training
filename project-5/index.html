@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Page!!</title>
+    <script src="script.js"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body onload="saveSession()">
+    <div class="card text-center">
+        <div card-header>
+            <h3>Shopping Cart</h3>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <p class="navbar-text" id="itemNumber">
+                Number of items in your cart : 0
+            </p>
+          <div class="collapse navbar-collapse" id="navbarText">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            </ul>
+            <a class="navbar-brand" href="checkout.html">Checkout</a>
+          </div>
+        </div>
+    </nav>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card" style="width:18rem;">
+                <img src="pic1.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title" id="title_item1">Spider-Man Marvel Titan Hero Series Blast Gear Action Figure Toy with Blaster</h5>
+                    <p class="card-text" id="price_item1">Price: $15.61</p>
+                    <button href="#" id="item1" class="btn btn-info" onclick = addItem(this.id)>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width:18rem;">
+                <img src="pic2.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title" id="title_item2">Marvel Spider-Man Web Shots Spiderbolt NERF Powered Blaster Toy</h5>
+                    <p class="card-text" id="price_item2">Price: $19.85</p>
+                    <buttpm href="#" id="item2" class="btn btn-info" onclick = addItem(this.id)>Add</buttpm>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width:18rem;">
+                <img src="pic3.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title" id="title_item3">Marvel Hot Wheels Spider-Man Web-Car Launcher</h5>
+                    <p class="card-text" id="price_item3">Price: $45.52</p>
+                    <button href="#" id="item3" class="btn btn-info" onclick = addItem(this.id)>Add</button>
+              </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-sm-4">
+            <div class="card" style="width:18rem;">
+                <img src="pic4.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title" id="title_item4">Dancing Spider-Man Robot Toys</h5>
+                    <p class="card-text"  id="price_item4">Price: $18.00</p>
+                    <button href="#" id="item4" class="btn btn-info" onclick = addItem(this.id)>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width:18rem;">
+                <img src="pic5.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"  id="title_item5">Marvel 3.5 Inch: Spider-Man Flying Figure IR Helicopter</h5>
+                    <p class="card-text" id="price_item5">Price: $29.85</p>
+                    <button href="#" id="item5" class="btn btn-info" onclick = addItem(this.id)>Add</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="card" style="width:18rem;">
+                <img src="pic6.jpg" class="card-img-top" alt="">
+                <div class="card-body">
+                    <h5 class="card-title"  id="title_item6">DIAMOND SELECT TOYS Marvel Select: Spectacular Spider-Man Action Figure</h5>
+                    <p class="card-text"  id="price_item6">Price: $29.56</p>
+                    <a href="#" id="item6" class="btn btn-info" onclick = addItem(this.id)>Add</a>
+              </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
