@@ -1,0 +1,13 @@
+<div>
+  <form class="px-4 py-3" [formGroup]="loginRef" (ngSubmit)="checkUser()">
+    <div class="mb-3">
+      <label for="emailLogin" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="emailLogin" placeholder="email@example.com" formControlName = "email">
+    </div>
+    <div class="mb-3">
+      <label for="passLogin" class="form-label">Password</label>
+      <input type="password" class="form-control" id="passLogin" placeholder="Password" formControlName = "pass">
+    </div>
+    <button type="submit" class="btn btn-primary">Log In</button>
+  </form>
+</div>
