@@ -1,0 +1,14 @@
+<div>
+    <div *ngFor = "let ques of questions; let i = index">
+        <div>Q{{ques.id}}. {{ques.ques}}</div>
+        <mat-radio-group [(ngModel)] = "selectedAnswer[i]">
+            <mat-radio-button value="1">{{ques.opt1}}</mat-radio-button><br/>
+            <mat-radio-button value="2">{{ques.opt2}}</mat-radio-button><br/>
+            <mat-radio-button value="3">{{ques.opt3}}</mat-radio-button><br/>
+            <mat-radio-button value="4">{{ques.opt4}}</mat-radio-button><br/>
+        </mat-radio-group>
+        <br/><br/>
+    </div>
+    <button type="button" id="submit" mat-stroked-button style="color:rgb(18, 17, 20); 
+        background-color:rgb(187, 90, 132);" (click)="loadResult()">Submit Quiz</button>
+</div>

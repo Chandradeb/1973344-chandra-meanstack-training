@@ -18,7 +18,7 @@ export class AppComponent implements OnInit{
   ngOnInit(){
     this.Auth.authStatus.subscribe(value => this.loggedIn = value);
   }
-  title = 'project6';
+  title = 'Porftolio';
 
   resetData(){
     console.log('I visited here');

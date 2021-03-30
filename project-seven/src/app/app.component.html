@@ -1,0 +1,16 @@
+<div>
+
+  <mat-card style="text-align: center;">
+    <mat-card-title>Quiz</mat-card-title>
+  </mat-card>
+  <div style="text-align: center;">
+    <button mat-stroked-button style="color:rgb(65, 62, 70); 
+      background-color:rgb(179, 172, 175);" *ngIf = "!started" (click)="startQuiz()">
+      Start Quiz</button>
+  </div>
+  <br/>
+  <p style="text-align: center; font-style: italic;" *ngIf="!started">{{msg}}</p>
+
+  <router-outlet></router-outlet>
+
+</div>

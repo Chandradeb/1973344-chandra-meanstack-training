@@ -1,0 +1,12 @@
+<div>
+    <div>The result is {{match}} out of 10</div>
+    <br/>
+    <ul *ngFor="let temp of data; let i =index;">
+        <div>Q{{temp.id}}. {{temp.ques}}</div>
+        <li>{{temp.opt1}}<span class="tab">{{resultArray[i].out1}}</span></li>
+        <li>{{temp.opt2}}<span class="tab">{{resultArray[i].out2}}</span></li>
+        <li>{{temp.opt3}}<span class="tab">{{resultArray[i].out3}}</span></li>
+        <li>{{temp.opt4}}<span class="tab">{{resultArray[i].out4}}</span></li>
+        <br/>
+    </ul>
+</div>
