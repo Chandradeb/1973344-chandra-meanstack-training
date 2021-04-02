@@ -13,10 +13,12 @@ logData = function(){
         let logObj2 = fs.readFileSync('log.json');
         let logStr2 = logObj2.toString();
         logArray2 = JSON.parse(logStr2);
+        debugger;
         date = recDate2.toLocaleDateString();
         time = recDate2.toLocaleTimeString();
         let logObj3 = {"fname":fname, "lname": lname, "email": email, "gender": gender,
             "date": date, "time": time};
+        debugger;
         logArray2.push(logObj3);
         let logStr3 = JSON.stringify(logArray2);
         fs.writeFileSync("log.json", logStr3);
@@ -27,6 +29,7 @@ logData = function(){
         time = recDate1.toLocaleTimeString();
         let logObj1 = {"fname":fname, "lname": lname, "email": email, "gender": gender, 
             "date": date, "time": time};
+        debugger;
         let logArray1 = new Array();
         logArray1.push(logObj1);
         let logStr1 = JSON.stringify(logArray1);
