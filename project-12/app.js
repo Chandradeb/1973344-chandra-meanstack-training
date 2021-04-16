@@ -41,20 +41,7 @@ db.once("open",()=>{
                 obj.disconnect(); 
             })
         }
-    });
-
-
-
-    // Creating reference using model 
-    // let p1 = new Product({_id:103,pname:"Laptop",price:85000});
-    // p1.save((err,result)=>{
-    //     if(!err){
-    //         console.log("record inserted successfully"+result)
-    //     }else {
-    //         console.log(err);
-    //     }
-    //     obj.disconnect();       //close the connectiond..
-    // })
+    });   
 
 })
 
