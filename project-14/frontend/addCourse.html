@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Add Courses</title>
+  </head>
+  <body>
+    <div>
+      <h2>Navigation Links</h2><br/>
+      <a href="updateCourse">Update Courses</a><br/>
+      <a href="displayCourse">Display Courses</a><br/>
+      <a href="deleteCourse">Delete Courses</a>
+    </div>
+    <hr/>
+    <form action="/addCourse" method="POST">
+      <h3>Add Courses</h3><br/>
+      Course Id: <input type="number" id="courseID" name="courseID" /><br />
+      Name: <input type="text" id="name" name="name" /><br />
+      Description: <input type="text" id="description" name="description"/><br />
+      Price: <input type="number" id="price" name="price" /><br />
+      <button type="submit">Add Courses</button>
+      <button type="reset">Clear Form</button>
+    </form>
+  </body>
+</html>
